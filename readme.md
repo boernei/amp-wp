@@ -1,6 +1,13 @@
-# AMP for WordPress
+# AMP only theme for WordPress
 
 ## Overview
+
+This is a fork of the original AMP Wordpress plugin from Automattic.
+
+I want to check how amp sites perform on desktop too:
+You can find an example here: http://bernhardhering.de
+
+## Readme of plugin:
 
 This plugin adds support for the [Accelerated Mobile Pages](https://www.ampproject.org) (AMP) Project, which is an open source initiative that aims to provide mobile optimized content that can load instantly everywhere.
 

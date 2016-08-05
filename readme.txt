@@ -1,5 +1,5 @@
 === AMP ===
-Contributors: batmoo, joen, automattic, potatomaster
+Contributors: batmoo, joen, automattic, potatomaster, boernei
 Tags: amp, mobile
 Requires at least: 4.4
 Tested up to: 4.5
@@ -10,6 +10,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Enable Accelerated Mobile Pages (AMP) on your WordPress site.
 
 == Description ==
+AMP only theme for WordPress
+
+Overview
+
+This is a fork of the original AMP Wordpress plugin from Automattic.
+
+I want to check how amp sites perform on desktop too:
+You can find an example here: http://bernhardhering.de
 
 This plugin adds support for the [Accelerated Mobile Pages](https://www.ampproject.org) (AMP) Project, which is an an open source initiative that aims to provide mobile optimized content that can load instantly everywhere.
 
