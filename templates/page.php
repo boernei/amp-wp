@@ -17,9 +17,7 @@
 <body>
 <?php get_template_part('/templates/header-bar');?>
 <div class="amp-wp-content">
-<div class="row">
 	<h1 class="amp-wp-title"><?php echo wp_kses_data( $this->get( 'post_title' ) ); ?></h1>
-</div>
 
 	<?php echo $this->get( 'post_amp_content' ); // amphtml content; no kses ?>
 </div>

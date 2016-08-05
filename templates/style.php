@@ -68,6 +68,8 @@ amp-img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 	max-width: <?php echo sprintf( '%dpx', $content_max_width ); ?>;
 	margin: 0 auto;
 	<?php endif; ?>
+		 display: flex;
+  flex-flow: row wrap;
 }
 
 body {
@@ -242,3 +244,55 @@ amp-carousel > amp-img > img {
 	background-size: 48px 48px;
 	min-height: 48px;
 }
+
+
+a.btn {
+    border-radius: 2px;
+    border: 3px solid #27476E;
+    display: inline-block;
+    font-size: .8em;
+	letter-spacing: .15em;
+    padding: 5px 40px 5px 40px;
+    text-transform: uppercase;
+}
+
+.row {
+	width:100%;
+}
+
+
+.col-12 {
+	width:100%;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+
+.col-3 {
+  width: 200px;  /* Or whatever */
+  margin: auto;  /* Magic! */
+}
+
+.col-4 {
+  width: 200px;  /* Or whatever */
+  margin: auto;  /* Magic! */
+}
+ 
+.col-8 {
+  width: 600px;  /* Or whatever */
+  margin: auto;  /* Magic! */
+}
+
+nav.amp-wp-title-bar .brand {
+	display: inline-block;
+	margin-left: 0px;
+}
+
+nav.amp-wp-title-bar .main-navigation {
+	display: inline-block;
+		float:right;
+	    margin-right: 37px;
+}
+
+
+
